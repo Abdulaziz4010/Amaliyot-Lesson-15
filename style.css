@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.box {
+  padding: 0px 120px;
+  background-color: rgba(128, 128, 128, 0.271);
+}
+
+.box h3 {
+  color: gray;
+}
+
+.box span {
+  color: black;
+}
+
+h3 {
+  padding: 20px 0;
+  font-size: 15px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-items {
+  background-color: white;
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 20px;
+  box-shadow: 1px 0px 5px 0px beige;
+  border-radius: 5px;
+}
+
+.box-items label {
+  padding: 5px 0;
+  font-size: 10px;
+  color: gray;
+}
+
+.box-items h1 {
+  font-size: 30px;
+}
+
+.first-input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid grey;
+}
+
+.date-input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-items-nth {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+
+.box-items-nth label {
+  padding: 5px 0;
+}
+
+.second-input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.date-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.date label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.date input {
+  padding: 9px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.cvc input {
+  padding: 10px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.prays {
+  font-family: sans-serif;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img span {
+  width: 50px;
+  height: 35px;
+  border: 1px solid gray;
+  position: absolute;
+  gap: 20px;
+}
+
+.shop h4 {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.sum {
+  font-weight: bold;
+}
+
+.img-num {
+  font-size: 13px;
+  position: relative;
+  top: -10px;
+  left: 40px;
+  font-weight: 700;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  background-color: rgba(7, 143, 254, 0.927);
+  width: 20px;
+  text-align: center;
+  color: white;
+}
+
+.shop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop p {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.adres {
+  width: 100%;
+  height: 100%;
+  padding: 50px 120px;
+  gap: 20px;
+  background-color: rgba(128, 128, 128, 0.244);
+}
+
+.adres-desc {
+  width: 55%;
+  height: 200px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  gap: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.adres-desc p {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.bottom-btn {
+  width: 100%;
+  padding: 20px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: rgba(128, 128, 128, 0.271);
+}
+
+.bottom-btn1 {
+  width: 58%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0px 55px;
+  justify-content: space-between;
+}
+
+.bottom-btn1 p {
+  color: rgb(50, 50, 247);
+}
+
+.bottom-btn1 button {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgba(7, 7, 255, 0.76);
+}

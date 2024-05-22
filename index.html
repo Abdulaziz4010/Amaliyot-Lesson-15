@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Amaliyot</title>
+  </head>
+  <body>
+    <section>
+      <div class="box">
+        <h3>
+          Cart - customer information - shiping Method -
+          <span>Payment Method</span>
+        </h3>
+        <div class="wrapper">
+          <div class="box-items">
+            <h1>Payment information</h1>
+            <label for="card">CARD NUMBER</label>
+            <input
+              class="first-input"
+              type="card number"
+              id="card"
+              placeholder="**** **** **** ****"
+            />
+            <!--  -->
+            <div class="box-items-nth">
+              <div class="date-input">
+                <label for="text">CARD HOLDER</label>
+                <input
+                  class="second-input"
+                  type="text"
+                  id="text"
+                  placeholder="Michel Jordan"
+                />
+              </div>
+
+              <!-- date -->
+              <div class="date">
+                <label for="date">EXR DATE</label>
+                <input type="date" id="date" placeholder="03/19" />
+              </div>
+              <div class="cvc">
+                <label for="password">CVC</label>
+                <input type="password" id="password" placeholder="***" />
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="prays">
+            <div class="img">
+              <span></span>
+              <p class="img-num">2</p>
+              <p class="sum">$2.49</p>
+            </div>
+            <hr />
+            <div class="shop">
+              <p>Suptotal</p>
+              <h4>$4.98</h4>
+            </div>
+            <div class="shop">
+              <p>Shopping</p>
+              <h4>$3.00</h4>
+            </div>
+            <hr />
+            <div class="shop">
+              <p>Total</p>
+              <h4>$7.98</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="adres">
+        <div class="adres-desc">
+          <h2>Biling address</h2>
+          <p><input type="radio" /> Same as the shipping addresa</p>
+          <hr />
+          <p><input type="radio" /> Use a different biling address</p>
+        </div>
+      </div>
+      <div class="bottom-btn">
+        <div class="bottom-btn1">
+          <p>Return to shipping method</p>
+          <button>Complete order</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
